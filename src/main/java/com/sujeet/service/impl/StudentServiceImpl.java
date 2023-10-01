@@ -20,8 +20,8 @@ import java.util.List;
 @Transactional
 public class StudentServiceImpl implements StudentService {
 
-    private static final String ADDRESS = "address";
-    private static final String ADDRESS_VALUE = "address1";
+    public static final String ADDRESS = "address";
+    public static final String ADDRESS_VALUE = "address1";
 
     private static final String AGE = "age";
     private static final Integer AGE_VALUE = 25;
